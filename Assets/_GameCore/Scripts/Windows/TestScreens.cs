@@ -15,7 +15,7 @@ namespace _GameCore.Scripts.Windows
         {
             var windowService = new ScreenService();
             windowService.Init(_screenCanvas);
-            windowService.OpenWindow(_screen1);
+            windowService.OpenWindow(_screen1); 
         }
     }
 }
